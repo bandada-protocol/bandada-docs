@@ -73,43 +73,47 @@ const config: Config = {
     },
     footer: {
       style: "dark",
+      logo: {
+        src: "img/logo-text.svg",
+        width: 160,
+        height: 51
+      },
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro"
-            }
-          ]
-        },
         {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus"
+              label: "PSE Discord",
+              href: "https://discord.com/invite/sF5CT5rzrR"
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus"
+              label: "GitHub",
+              href: "https://github.com/privacy-scaling-explorations/bandada"
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus"
+              label: "X (Twitter)",
+              href: "https://twitter.com/BandadaDevs"
             }
           ]
         },
         {
-          title: "More",
+          title: "Build",
           items: [
             {
-              label: "Blog",
-              to: "/blog"
+              label: "App",
+              href: "https://bandada.pse.dev"
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus"
+              label: "API",
+              href: "https://api.bandada.pse.dev"
+            },
+            {
+              label: "Boilerplate",
+              href: "https://github.com/vplasencia/bandada-semaphore-demo"
+            },
+            {
+              label: "API SDK demo",
+              href: "https://github.com/vplasencia/bandada-sdk-demo"
             }
           ]
         }
