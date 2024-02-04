@@ -65,12 +65,10 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial"
+          href: "https://bandada.pse.dev",
+          label: "App",
+          position: "right"
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
