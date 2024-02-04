@@ -1,6 +1,6 @@
 import videos from "../../../static/data/videos.json"
 
-export default function RenderVideos() {
+export default function RenderVideos(): JSX.Element {
   return (
     <div>
       {videos

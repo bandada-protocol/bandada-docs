@@ -1,6 +1,6 @@
 import articles from "../../../static/data/articles.json"
 
-export default function RenderArticles() {
+export default function RenderArticles(): JSX.Element {
   return (
     <div>
       {articles
